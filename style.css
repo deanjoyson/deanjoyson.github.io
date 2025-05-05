@@ -1,0 +1,37 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    /* Default font size */
+}
+
+.f-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+@media (max-width: 1250px) {
+    body {
+        font-size: 90%; /* 10% smaller */
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 80%; /* 20% smaller */
+    }
+}
+
+@media (max-width: 995px) {
+    body {
+        font-size: 60%; /* 40% smaller */
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 80%; /* 20% smaller */
+    }
+}
